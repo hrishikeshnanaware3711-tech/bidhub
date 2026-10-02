@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+backend/.venv/
+
+# Environment files
+.env
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# Database
+backend/civicwatch.db
+*.sqlite
+*.sqlite3
+
+# Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
